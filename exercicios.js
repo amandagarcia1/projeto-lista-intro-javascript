@@ -67,6 +67,7 @@ console.log (letArrayDeCores)
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
+return string.toUpperCase()
 
 }
 
