@@ -17,9 +17,12 @@ function imprimeMensagem() {
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
 // EXERCÍCIO 01
-function calculaAreaRetangulo() {
+function calculaAreaRetangulo(altura , largura) {
   // implemente sua lógica aqui
-
+altura = Number(prompt('escreva a altura do retangulo'))
+largura = Number(prompt('escreva a largura do retangulo'))
+areaDoRetangulo = altura * largura 
+console.log(areaDoRetangulo)
 }
 
 // EXERCÍCIO 02
