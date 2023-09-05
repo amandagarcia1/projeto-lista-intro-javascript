@@ -26,8 +26,12 @@ console.log(areaDoRetangulo)
 }
 
 // EXERCÍCIO 02
-function imprimeIdade() {
+function imprimeIdade(idade) {
   // implemente sua lógica aqui
+  anoAtual = Number(prompt('escreva o ano atual'))
+anoNascimento = Number(prompt('escreva seu ano de nascimento'))
+idade = anoAtual-anoNascimento
+console.log (idade)
 
 }
 
