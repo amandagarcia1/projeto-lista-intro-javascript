@@ -83,7 +83,9 @@ return numeroDeIngressos
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
-
+  let tamanhoString1 = string1.length
+  let tamanhoString2 = string2.length
+  return tamanhoString1 === tamanhoString2
 }
 
 // EXERCÍCIO 09
