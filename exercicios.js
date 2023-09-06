@@ -74,6 +74,9 @@ return string.toUpperCase()
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
   // implemente sua lógica aqui
+let numeroDeIngressos = custo / valorIngresso
+return numeroDeIngressos
+
 
 }
 
