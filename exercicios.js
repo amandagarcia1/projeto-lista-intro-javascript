@@ -115,7 +115,9 @@ function trocaPrimeiroEUltimo(array) {
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
-
+  let stringMinuscula1 = string1.toUpperCase()
+  let stringMinuscula2 = string2.toUpperCase()
+  return stringMinuscula1 === stringMinuscula2
 }
 
 // EXERCÍCIO 13
