@@ -128,16 +128,19 @@ function checaRenovacaoRG() {
   let anoEmissaoRg = Number(prompt('Digite o ano de emissão do seu RG (XXXX):'))
   let idade = anoAtual - anoNascimento
   let anosRg = anoAtual - anoEmissaoRg
-  const condicao1 = (idade <= 20) && (anosRg >= 5)
-  const condicao2 = (idade <= 50) && (anosRg >= 10)
-  const condicao3 = (idade > 50) && (anosRg > 15)
-  console.log(condicao1 || condicao2 || condicao3)
+  const criterio1 = (idade <= 20) && (anosRg >= 5)
+  const criterio2 = (idade <= 50) && (anosRg >= 10)
+  const criterio3 = (idade > 50) && (anosRg > 15)
+  console.log(criterio1 || criterio2 || criterio3)
 }
 
 // EXERCÍCIO 14
 function checaAnoBissexto(ano) {
   // implemente sua lógica aqui
-
+  const divisivelPor4 = (ano % 4)
+  const divisivelPor100 = (ano % 100)
+  const divisivelPor400 = (ano % 400)
+  return (divisivelPor4 === 0) && (divisivelPor100 !== 0) || (divisivelPor400 === 0)
 }
 
 // EXERCÍCIO 15
