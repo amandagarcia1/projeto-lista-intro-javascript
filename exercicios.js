@@ -98,7 +98,8 @@ return primeiroArray
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
-
+let ultimoArray = array.pop()
+return ultimoArray
 }
 
 // EXERCÍCIO 11
